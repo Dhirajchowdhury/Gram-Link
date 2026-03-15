@@ -1,0 +1,224 @@
+[
+  {
+    "id": "PM-KISAN",
+    "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "category": "Agriculture",
+    "description": "Income support scheme providing ₹6000 per year to all landholding farmer families across India in three equal installments of ₹2000 each.",
+    "benefit": "₹6000 per year (₹2000 every 4 months)",
+    "eligibility": {
+      "occupation": ["Farmer", "Agriculture"],
+      "land_ownership": "Must own cultivable land",
+      "income": "No income limit",
+      "age": "18+",
+      "exclusions": [
+        "Income tax payers",
+        "Government employees",
+        "Professionals"
+      ]
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account Details",
+      "Land Ownership Documents"
+    ],
+    "application_process": "Online through PM-KISAN portal or nearest CSC",
+    "helpline": "155261",
+    "website": "https://pmkisan.gov.in/",
+    "states": "All India"
+  },
+  {
+    "id": "AYUSHMAN",
+    "name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+    "category": "Health",
+    "description": "World's largest health insurance scheme providing free health coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization.",
+    "benefit": "₹5 lakh health coverage per family per year",
+    "eligibility": {
+      "income": "Below Poverty Line or SECC beneficiaries",
+      "age": "All ages",
+      "family_size": "No limit",
+      "coverage": "Covers pre-existing conditions"
+    },
+    "documents": ["Aadhaar Card", "Ration Card", "SECC/BPL Certificate"],
+    "application_process": "Visit nearest Ayushman Mitra or empanelled hospital",
+    "helpline": "14555",
+    "website": "https://pmjay.gov.in/",
+    "states": "All India except Delhi, Odisha, Telangana (have own schemes)"
+  },
+  {
+    "id": "PM-AWAS-GRAMIN",
+    "name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+    "category": "Housing",
+    "description": "Provides financial assistance to rural poor for construction of pucca houses with basic amenities.",
+    "benefit": "₹1.2 lakh (plain areas) to ₹1.3 lakh (hilly/difficult areas)",
+    "eligibility": {
+      "location": "Rural areas",
+      "housing": "Houseless or living in kutcha house",
+      "income": "Below Poverty Line",
+      "age": "18+",
+      "exclusions": [
+        "Owns pucca house",
+        "Government employee",
+        "Income tax payer"
+      ]
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account",
+      "Income Certificate",
+      "BPL Card"
+    ],
+    "application_process": "Through Gram Panchayat or online at pmayg.nic.in",
+    "helpline": "1800-11-6163",
+    "website": "https://pmayg.nic.in/",
+    "states": "All India"
+  },
+  {
+    "id": "SUKANYA",
+    "name": "Sukanya Samriddhi Yojana",
+    "category": "Savings & Investment",
+    "description": "Small savings scheme for girl child providing attractive interest rate and tax benefits for education and marriage expenses.",
+    "benefit": "7.6% interest rate (tax-free), Maturity after 21 years",
+    "eligibility": {
+      "gender": "Girl child",
+      "age": "Below 10 years at account opening",
+      "limit": "Maximum 2 girl children per family",
+      "citizenship": "Indian resident"
+    },
+    "documents": [
+      "Birth Certificate of girl child",
+      "Parent's Aadhaar",
+      "Address Proof"
+    ],
+    "application_process": "Visit nearest Post Office or authorized bank",
+    "helpline": "1800-11-0001",
+    "website": "https://www.nsiindia.gov.in/",
+    "states": "All India"
+  },
+  {
+    "id": "PM-MUDRA",
+    "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "category": "Business & Entrepreneurship",
+    "description": "Provides loans up to ₹10 lakh to non-corporate, non-farm small/micro enterprises for income generating activities.",
+    "benefit": "Loans: Shishu (up to ₹50k), Kishore (₹50k-₹5L), Tarun (₹5L-₹10L)",
+    "eligibility": {
+      "business": "Small/micro enterprises, traders, manufacturers, service providers",
+      "age": "18+",
+      "income": "No income limit",
+      "exclusions": ["Corporate entities", "Farm activities"]
+    },
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Plan",
+      "Bank Statements",
+      "Address Proof"
+    ],
+    "application_process": "Apply at nearest bank, NBFC, or MFI",
+    "helpline": "1800-180-1111",
+    "website": "https://www.mudra.org.in/",
+    "states": "All India"
+  },
+  {
+    "id": "PM-SYM",
+    "name": "Pradhan Mantri Shram Yogi Maan-Dhan (PM-SYM)",
+    "category": "Pension",
+    "description": "Pension scheme for unorganized workers providing assured monthly pension of ₹3000 after 60 years of age.",
+    "benefit": "₹3000 monthly pension after 60 years",
+    "eligibility": {
+      "age": "18-40 years at entry",
+      "income": "Monthly income ≤ ₹15,000",
+      "sector": "Unorganized workers",
+      "exclusions": ["EPFO/ESIC/NPS members", "Income tax payers"]
+    },
+    "documents": ["Aadhaar Card", "Bank Account with IFSC", "Mobile Number"],
+    "application_process": "Through CSC or online at maandhan.in",
+    "helpline": "1800-267-6888",
+    "website": "https://maandhan.in/",
+    "states": "All India"
+  },
+  {
+    "id": "PMFBY",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "category": "Agriculture Insurance",
+    "description": "Crop insurance scheme providing financial support to farmers in case of crop failure due to natural calamities.",
+    "benefit": "Insurance coverage for crop loss, Premium: 2% (Kharif), 1.5% (Rabi)",
+    "eligibility": {
+      "occupation": "Farmers (owner/tenant)",
+      "crops": "Food crops, oilseeds, annual commercial/horticultural crops",
+      "age": "18+"
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account",
+      "Land Records",
+      "Sowing Certificate"
+    ],
+    "application_process": "Through banks, CSCs, or insurance companies",
+    "helpline": "1800-180-1551",
+    "website": "https://pmfby.gov.in/",
+    "states": "All India"
+  },
+  {
+    "id": "PMEGP",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "category": "Employment & Entrepreneurship",
+    "description": "Credit-linked subsidy program for setting up new micro-enterprises in non-farm sector.",
+    "benefit": "Subsidy: 15-35% of project cost (up to ₹25 lakh manufacturing, ₹10 lakh services)",
+    "eligibility": {
+      "age": "18+",
+      "education": "8th pass minimum",
+      "income": "No income limit for general category",
+      "exclusions": ["Existing unit availed subsidy", "Defaulters"]
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Educational Certificates",
+      "Caste Certificate (if applicable)",
+      "Project Report"
+    ],
+    "application_process": "Online through KVIC portal",
+    "helpline": "1800-180-1111",
+    "website": "https://www.kviconline.gov.in/pmegpeportal/",
+    "states": "All India"
+  },
+  {
+    "id": "NSAP",
+    "name": "National Social Assistance Programme (NSAP)",
+    "category": "Social Security",
+    "description": "Provides financial assistance to elderly, widows, and persons with disabilities from BPL families.",
+    "benefit": "₹200-500 per month (varies by state and category)",
+    "eligibility": {
+      "age": "60+ (elderly), 40+ (widows)",
+      "income": "Below Poverty Line",
+      "disability": "80%+ for disability pension",
+      "exclusions": ["Government pensioners"]
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Age Proof",
+      "BPL Card",
+      "Widow Certificate/Disability Certificate"
+    ],
+    "application_process": "Through local Panchayat or Municipal office",
+    "helpline": "1800-180-1551",
+    "website": "https://nsap.nic.in/",
+    "states": "All India"
+  },
+  {
+    "id": "PMUY",
+    "name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "category": "Energy & Fuel",
+    "description": "Provides free LPG connections to women from BPL households to promote clean cooking fuel.",
+    "benefit": "Free LPG connection + ₹1600 support for first refill",
+    "eligibility": {
+      "gender": "Women from BPL households",
+      "age": "18+",
+      "exclusions": ["Already has LPG connection in household"]
+    },
+    "documents": ["Aadhaar Card", "BPL Card", "Bank Account", "Address Proof"],
+    "application_process": "Apply at nearest LPG distributor",
+    "helpline": "1800-266-6696",
+    "website": "https://www.pmuy.gov.in/",
+    "states": "All India"
+  }
+]

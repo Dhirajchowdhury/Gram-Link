@@ -1,0 +1,39 @@
+{
+  "scheme_id": "PM-KISAN-001",
+  "name": "PM-KISAN",
+  "full_name": "Pradhan Mantri Kisan Samman Nidhi",
+  "ministry": "Ministry of Agriculture & Farmers Welfare",
+  "description": "Income support to all landholding farmers' families",
+  "benefits": {
+    "amount": "₹6000 per year",
+    "frequency": "Three installments of ₹2000 each"
+  },
+  "eligibility": {
+    "occupation": ["farmer"],
+    "land_ownership": "required",
+    "income_limit": null,
+    "age_min": null,
+    "age_max": null,
+    "states": ["all"],
+    "exclusions": [
+      "Institutional landholders",
+      "Income tax payers",
+      "Government employees"
+    ]
+  },
+  "documents_required": [
+    "Aadhaar Card",
+    "Bank Account Details",
+    "Land Ownership Documents"
+  ],
+  "application_process": [
+    "Visit nearest CSC or agriculture office",
+    "Fill application form",
+    "Submit documents",
+    "Verification by authorities",
+    "Amount credited to bank account"
+  ],
+  "official_website": "https://pmkisan.gov.in/",
+  "helpline": "155261 / 011-24300606",
+  "languages": ["hi", "en"]
+}
