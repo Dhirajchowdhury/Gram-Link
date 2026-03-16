@@ -45,17 +45,6 @@ ml-models/embeddings/
 *.log
 logs/
 
-
-.env
-.env.*
-google-credentials.json
-backend/google-credentials.json
-
-.env
-.env.*
-backend/google-credentials.json
-*.rar
-
 .env
 .env.*
 backend/google-credentials.json
